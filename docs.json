@@ -9,15 +9,30 @@
   },
   "favicon": "/favicon.ico",
   "navigation": {
-    "tabs": [
+    "languages": [
       {
-        "tab": "Инструкции",
-        "groups": [
+        "language": "ru",
+        "tabs": [
           {
-            "group": "Начать",
-            "pages": [
-              "introduction",
-              "quickstart"
+            "tab": "Документация",
+            "groups": [
+              {
+                "group": "Введение",
+                "pages": [
+                  "introduction"
+                ]
+              },
+              {
+                "group": "Инструкции",
+                "pages": [
+                  "instructions/quickstart",
+                  "instructions/prompting",
+                  "instructions/domain",
+                  "instructions/publish",
+                  "instructions/tutorials",
+                  "instructions/debugging"
+                ]
+              }
             ]
           }
         ]
